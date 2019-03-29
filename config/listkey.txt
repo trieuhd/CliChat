@@ -1,0 +1,17 @@
+/report/online
+/report/all
+/report/offline
+/info
+/setinfo
+/leave
+/nickname
+/setnick
+/ban
+/unban
+/mods
+/mod
+/unmod
+/filters
+/filter
+/unfilter
+/private
