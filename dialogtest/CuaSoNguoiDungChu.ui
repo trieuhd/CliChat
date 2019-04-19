@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CuaSoNguoiDung</class>
- <widget class="QWidget" name="CuaSoNguoiDung">
+ <class>CuaSoNguoiDungChu</class>
+ <widget class="QDialog" name="CuaSoNguoiDungChu">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Aloo!</string>
+   <string>May Chủ Nhé!</string>
   </property>
   <property name="windowIcon">
    <iconset>
@@ -68,23 +68,20 @@
      </item>
      <item>
       <widget class="QPushButton" name="nutKetNoi">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Kết nối</string>
        </property>
       </widget>
      </item>
      <item>
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+      <widget class="QPushButton" name="nutThoat">
+       <property name="text">
+        <string>Thoát</string>
        </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
+      </widget>
      </item>
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -154,6 +151,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="nutGuiTin">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Gửi tin</string>
        </property>
